@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MONEY ISLAND — 21세기 골드러쉬의 지형학</title>
+
+  <!-- 카카오톡·인스타그램 공유 시 표시되는 정보 (오픈그래프) -->
+  <meta property="og:title" content="MONEY ISLAND: 21세기 골드러쉬의 지형학" />
+  <meta property="og:description" content="인천 영종도 미단시티 신지형학(New Topographics) 사진 아카이브 · 차승현" />
+  <meta property="og:image" content="images/full/MONEYISLND_057.jpg" />
+  <meta property="og:type" content="website" />
+
+  <!-- 디자인 파일(styles.css) 연결 -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 상단 고정 내비게이션 바 -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-title">MONEY ISLAND</span>
+        <span class="brand-sub" data-i18n="brandSub">21세기 골드러쉬의 지형학</span>
+      </a>
+      <nav class="main-nav" aria-label="주요 메뉴">
+        <a href="#statement" data-i18n="navStatement">Statement</a>
+        <a href="#archive" data-i18n="navArchive">Archive</a>
+        <a href="#diptychs" data-i18n="navDiptychs">Diptychs</a>
+        <a href="#index-map" data-i18n="navMap">Index Map</a>
+        <button id="langToggle" class="lang-btn" type="button" aria-label="언어 전환">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 1. 히어로(표지) 영역 -->
+    <section class="hero">
+      <div class="container">
+        <figure class="hero-figure">
+          <img src="images/full/MONEYISLND_057.jpg" alt="영종도 미단시티의 광활한 자갈 공터와 원경 리조트" />
+          <figcaption class="mono-meta">Plate 10 · MONEYISLND_057 · 인천 중구 운북동 일대 · 2025</figcaption>
+        </figure>
+        <div class="hero-copy">
+          <p class="eyebrow mono-meta">NEW TOPOGRAPHICS · DEADPAN ARCHIVE · 2025</p>
+          <h1>MONEY ISLAND</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">21세기 골드러쉬의 지형학 — Topography of a 21st-Century Gold Rush</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. 작업 노트 (Artist Statement) -->
+    <section id="statement" class="section border-top">
+      <div class="container statement-grid">
+        <div class="section-label">
+          <p class="eyebrow mono-meta">00 · ARTIST STATEMENT</p>
+          <h2 data-i18n="statementHeading">작업 노트</h2>
+          <p class="photographer-tag">차승현 (Seunghyun Cha)<br />Incheon Yeongjongdo · Midan City</p>
+        </div>
+        <div class="statement-body" id="statementContent">
+          <!-- photos.js의 작업 노트가 자동으로 들어옵니다 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 사진 아카이브 (챕터 필터 + 갤러리 그리드) -->
+    <section id="archive" class="section border-top">
+      <div class="container">
+        <div class="archive-header">
+          <div>
+            <p class="eyebrow mono-meta">PLATES 01–25 · SURVEY ARCHIVE</p>
+            <h2 data-i18n="archiveHeading">지형 아카이브</h2>
+          </div>
+          <!-- 챕터별 필터 버튼 -->
+          <div class="filter-bar" role="tablist" aria-label="챕터 필터">
+            <button class="filter-btn active" data-chapter="all" type="button">All (25)</button>
+            <button class="filter-btn" data-chapter="01" type="button">01 Prepared Ground</button>
+            <button class="filter-btn" data-chapter="02" type="button">02 Unoccupied Order</button>
+            <button class="filter-btn" data-chapter="03" type="button">03 Suspended Structures</button>
+            <button class="filter-btn" data-chapter="04" type="button">04 Edges of Capital</button>
+          </div>
+        </div>
+
+        <p id="chapterNote" class="chapter-note"></p>
+
+        <!-- 사진 카드들이 자동으로 채워지는 영역 -->
+        <div id="galleryGrid" class="gallery-grid"></div>
+      </div>
+    </section>
+
+    <!-- 4. Diptych (이폭 대조 뷰) -->
+    <section id="diptychs" class="section border-top">
+      <div class="container">
+        <p class="eyebrow mono-meta">DEADPAN JUXTAPOSITION</p>
+        <h2 data-i18n="diptychHeading">이폭 대조 (Diptychs)</h2>
+        <p class="section-desc" data-i18n="diptychDesc">방치된 지표면·골조와 완벽히 유지되는 유휴 인프라를 나란히 배치해 21세기 골드러쉬의 구조적 모순을 드러냅니다.</p>
+        <div id="diptychContainer" class="diptych-list"></div>
+      </div>
+    </section>
+
+    <!-- 5. 인덱스 맵 & 추가 촬영 슬롯(유형학 그리드 예고) -->
+    <section id="index-map" class="section border-top">
+      <div class="container map-grid">
+        <div>
+          <p class="eyebrow mono-meta">SURVEY INDEX MAP</p>
+          <h2 data-i18n="mapHeading">촬영 구역 인덱스 맵</h2>
+          <figure class="map-figure">
+            <img src="images/map.jpg" alt="인천 영종국제도시 미단시티 촬영 구역 위성지도" loading="lazy" />
+          </figure>
+        </div>
+        <div class="map-info">
+          <div class="info-block">
+            <h3 class="mono-meta">LOCATION</h3>
+            <p data-i18n="mapLocation">인천광역시 중구 운북동 일대 (구 미단시티 / 현 골든테라시티)</p>
+          </div>
+          <div class="info-block">
+            <h3 class="mono-meta">UPCOMING SURVEY SLOTS</h3>
+            <ul class="slot-list">
+              <li><strong>Slot A</strong> — 중단 리조트 골조 정면 원경·중경 (흐린 날 확산광)</li>
+              <li><strong>Slot B</strong> — 베허 부부식 3×3 유형학 그리드 (빈 버스정류장 / 매각 현수막)</li>
+              <li><strong>Slot C</strong> — 고지대 부감 및 기성 어촌(예단포)·송전탑 경계면</li>
+            </ul>
+          </div>
+          <div class="info-block">
+            <h3 class="mono-meta">THEORETICAL REFERENCES</h3>
+            <p class="ref-text">William Jenkins (<em>New Topographics</em>, 1975) · Charlotte Cotton (<em>Deadpan</em>) · Robert Adams · Lewis Baltz · Bernd &amp; Hilla Becher · Stephen Shore · Joe Deal</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 하단 푸터 (Colophon) -->
+  <footer class="site-footer border-top">
+    <div class="container footer-inner">
+      <p class="mono-meta">© 2025 Seunghyun Cha (차승현) · MONEY ISLAND Archive</p>
+      <p class="mono-meta">Static Portfolio · Ready for GitHub Pages</p>
+    </div>
+  </footer>
+
+  <!-- 전체 화면 라이트박스(사진 클릭 시 확대 보기) -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
+    <button id="lbClose" class="lb-btn lb-close" type="button" aria-label="닫기">×</button>
+    <button id="lbPrev" class="lb-btn lb-prev" type="button" aria-label="이전 사진">‹</button>
+    <div class="lb-content">
+      <img id="lbImg" src="" alt="" />
+      <div class="lb-caption">
+        <div class="lb-caption-top">
+          <span id="lbPlate" class="mono-meta"></span>
+          <span id="lbRef" class="mono-meta lb-ref"></span>
+        </div>
+        <p id="lbDesc"></p>
+      </div>
+    </div>
+    <button id="lbNext" class="lb-btn lb-next" type="button" aria-label="다음 사진">›</button>
+  </div>
+
+  <!-- 데이터(photos.js)와 동작(app.js) 스크립트 연결 -->
+  <script src="photos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
