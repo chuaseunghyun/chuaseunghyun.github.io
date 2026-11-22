@@ -4,7 +4,8 @@
 
 let currentLang = "ko";
 let currentChapter = "all";
-let visiblePhotos = [...PHOTOS];
+let allPhotos = [];
+let visiblaPhotos = [];
 let lightboxIndex = 0;
 
 const galleryGrid = document.getElementById("galleryGrid");
@@ -35,8 +36,8 @@ function renderLanguage() {
 function renderGallery() {
   visiblePhotos =
     currentChapter === "all"
-      ? [...PHOTOS]
-      : PHOTOS.filter((p) => p.chapter === currentChapter);
+      ? [...allPhotos]
+      : allPhotos.filter((p) => p.chapter === currentChapter);
 
   chapterNote.textContent = CHAPTER_NOTES[currentChapter] || "";
 
@@ -45,11 +46,11 @@ function renderGallery() {
       (item, idx) => `
       <article class="plate-card" data-idx="${idx}">
         <div class="plate-thumb-wrap">
-          <img src="images/thumbs/${item.file}" alt="${item.desc}" loading="lazy" />
+          <img src="${item.thumb||item.image}" alt="${item.desc}" loading="lazy" />
         </div>
         <div class="plate-meta">
-          <span class="mono-meta">${item.plate} · ${item.file.replace(".jpg", "")}</span>
-          <span class="mono-meta">${item.ref}</span>
+          <span class="mono-meta">${item.plate}</span>
+          <span class="mono-meta">${item.ref}</span?
         </div>
         <p class="plate-desc">${item.desc}</p>
       </article>
@@ -147,6 +148,13 @@ document.addEventListener("keydown", (e) => {
 });
 
 // 초기 화면 실행
-renderLanguage();
-renderGallery();
-renderDiptychs();
+async function init() {
+  renderLanguage();
+  renderDiptychs();
+  const res = await fetch("photo.json"); //photo.json 파일 열기
+  const data = await res.json(); //JSON 텍스트를 데이터로 변환
+  allPhotos = data.items;
+  renderGallery();
+}
+
+init();

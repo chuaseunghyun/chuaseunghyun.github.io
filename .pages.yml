@@ -1,0 +1,46 @@
+media:
+  input: images/full
+  output: images/full
+
+content:
+  - name: photos
+    label: MONEYISLAND 사진 아카이브
+    type: file
+    path: photos.json
+    format: json
+    fields:
+      - name: items
+        label: 사진목록
+        type: object
+        list: true
+        fields:
+          - name: plate
+            label: Plate 번호
+            type: string
+            required: true
+          - name: image
+            label: 고화질 사진
+            type: image
+            required: true
+          - name: thumb
+            label: 썸네일 사진 (선택)
+            type: image
+          - name: chapter
+            label: 챕터
+            type: select
+            options:
+              values:
+                - value: "01"
+                  label: "01 Prepared Ground"
+                - value: "02"
+                  label: "02 Unoccupied Order"
+                - value: "03"
+                  label: "03 Suspended Structures"
+                - value: "04"
+                  label: "04 Edges of Capital"
+          - name: ref
+            label: 참조 작가 / 태그
+            type: string
+          - name: desc
+            label: 사진 설명 (캡션)
+            type: string
