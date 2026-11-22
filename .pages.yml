@@ -6,7 +6,7 @@ content:
   - name: photos
     label: MONEYISLAND 사진 아카이브
     type: file
-    path: photos.json
+    path: photo.json
     format: json
     fields:
       - name: items
