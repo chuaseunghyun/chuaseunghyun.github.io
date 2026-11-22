@@ -1,12 +1,12 @@
 media:
-  input: images/full
+  input: money-island/images/full
   output: images/full
 
 content:
   - name: photos
-    label: MONEYISLAND 사진 아카이브
+    label: MONEY ISLAND 사진 아카이브
     type: file
-    path: photo.json
+    path: money-island/photo.json
     format: json
     fields:
       - name: items
