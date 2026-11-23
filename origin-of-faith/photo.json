@@ -1,15 +1,27 @@
 {
   "items": [
-    { "plate": "Plate 01", "image": "images/full/origin_01.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "근대 벽돌 아치와 한글 성구 — 한국 성당 공간의 원형" },
-    { "plate": "Plate 02", "image": "images/full/origin_02.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "한국적 도상과 순교자 벽화, 목재 격자 제대" },
-    { "plate": "Plate 03", "image": "images/full/origin_03.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "붉은 중앙 통로와 돔 천장 — 공동체와 제도의 스케일" },
-    { "plate": "Plate 04", "image": "images/full/origin_04.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "석조 아치 속 십자가와 양옆 디지털 스크린의 공존" },
-    { "plate": "Plate 05", "image": "images/full/origin_05.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "붉은 벽돌과 원형 황금 스테인드글라스" },
-    { "plate": "Plate 06", "image": "images/full/origin_06.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "어두운 원형 성전과 중앙 통로에 번지는 스테인드글라스 색광" },
-    { "plate": "Plate 07", "image": "images/full/origin_07.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "목재 루버 벽면과 푸른 천창 빛, 붉은 감실등의 대비" },
-    { "plate": "Plate 08", "image": "images/full/origin_08.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "높은 석재 벽면과 틈새 자연광, 중앙의 황금 십자가" },
-    { "plate": "Plate 09", "image": "images/full/origin_09.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "베이지 벽면 위로 떨어지는 대각선 프리즘 빛과 십자가" },
-    { "plate": "Plate 10", "image": "images/full/origin_10.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "백색 원형 회벽과 천창의 빛, 가느다란 추상 십자가" },
-    { "plate": "Plate 11", "image": "images/full/origin_11.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "벽돌과 백색 벽면 사이 쏟아지는 빛, 그리고 홀로 제대를 바라보는 시선" }
+    { "plate": "Plate 01", "section": "sanctuaries", "image": "images/full/origin_01.jpg", "ref": "Gongseri Catholic Church, Asan", "desc": "공세리 성당, 충남 아산" },
+    { "plate": "Plate 02", "section": "sanctuaries", "image": "images/full/origin_02.jpg", "ref": "Church of Repentance and Atonement, Paju", "desc": "참회와 속죄의 성당, 경기 파주" },
+    { "plate": "Plate 03", "section": "sanctuaries", "image": "images/full/origin_03.jpg", "ref": "Jeongja-dong Cathedral, Suwon", "desc": "정자동 주교좌 성당, 경기 수원" },
+    { "plate": "Plate 04", "section": "sanctuaries", "image": "images/full/origin_04.jpg", "ref": "Sanbon Catholic Church, Gunpo", "desc": "산본성당, 경기 군포" },
+    { "plate": "Plate 05", "section": "sanctuaries", "image": "images/full/origin_05.jpg", "ref": "Suri-dong Catholic Church, Gunpo", "desc": "수리동 성당, 경기 군포" },
+    { "plate": "Plate 06", "section": "sanctuaries", "image": "images/full/origin_06.jpg", "ref": "Sinbong-dong Catholic Church, Yongin", "desc": "신봉동 성당, 경기 용인" },
+    { "plate": "Plate 07", "section": "sanctuaries", "image": "images/full/origin_07.jpg", "ref": "Gahoe-dong Catholic Church, Seoul", "desc": "가회동 성당, 서울 종로" },
+    { "plate": "Plate 08", "section": "sanctuaries", "image": "images/full/origin_08.jpg", "ref": "Bojeong Catholic Church, Yongin", "desc": "보정성당, 경기 용인" },
+    { "plate": "Plate 09", "section": "sanctuaries", "image": "images/full/origin_09.jpg", "ref": "Yangwon Catholic Church, Seoul", "desc": "양원성당, 서울 중랑" },
+    { "plate": "Plate 10", "section": "sanctuaries", "image": "images/full/origin_10.jpg", "ref": "Chodang Catholic Church, Gangneung", "desc": "초당성당, 강원 강릉" },
+    { "plate": "Plate 11", "section": "sanctuaries", "image": "images/full/origin_11.jpg", "ref": "Namyang Shrine of Our Lady of the Rosary, Hwaseong", "desc": "남양성모성지 대성당, 경기 화성" },
+    { "plate": "Plate 12", "section": "sanctuaries", "image": "images/full/origin_12.jpg", "ref": "Seoul St. Mary's Hospital Chapel, Seoul", "desc": "가톨릭대학교 서울성모병원 성당, 서울 서초" },
+    { "plate": "Plate 13", "section": "sanctuaries", "image": "images/full/origin_13.jpg", "ref": "St. Paul Chong Hasang Memorial Chapel, Seoul", "desc": "성 정하상 기념경당 (서소문성지), 서울 중구" },
+
+    { "plate": "Plate 14", "section": "rosaries", "image": "images/full/rosary_01.jpg", "ref": "Rosary I", "desc": "두 손 위에 놓인 진주 묵주팔찌" },
+    { "plate": "Plate 15", "section": "rosaries", "image": "images/full/rosary_02.jpg", "ref": "Rosary II", "desc": "검은 원석과 은 십자가 묵주팔찌" },
+    { "plate": "Plate 16", "section": "rosaries", "image": "images/full/rosary_03.jpg", "ref": "Rosary III", "desc": "반창고 붙은 손 위에 놓인 은색 장미 1단 묵주" },
+    { "plate": "Plate 17", "section": "rosaries", "image": "images/full/rosary_04.jpg", "ref": "Rosary IV", "desc": "두 손바닥을 채운 나무 5단 묵주와 십자가" },
+    { "plate": "Plate 18", "section": "rosaries", "image": "images/full/rosary_05.jpg", "ref": "Rosary V", "desc": "성당 장의자 위, 두 손에 감긴 검은 비즈 묵주" },
+
+    { "plate": "Plate 19", "section": "servers", "image": "images/full/server_01.jpg", "ref": "Altar Server I", "desc": "복사단 포트레이트 I" },
+    { "plate": "Plate 20", "section": "servers", "image": "images/full/server_02.jpg", "ref": "Altar Server II", "desc": "복사단 포트레이트 II" },
+    { "plate": "Plate 21", "section": "servers", "image": "images/full/server_03.jpg", "ref": "Altar Server III", "desc": "복사단 포트레이트 III" }
   ]
 }

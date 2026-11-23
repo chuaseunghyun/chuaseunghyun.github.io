@@ -59,13 +59,6 @@
       justify-content: space-between;
       gap: 16px;
     }
-    .header-left { display: flex; align-items: center; gap: 20px; }
-    .back-link {
-      text-decoration: none;
-      color: var(--ink-mid);
-      font-size: 13px;
-    }
-    .back-link:hover { color: var(--ink); }
     .site-name {
       text-decoration: none;
       color: var(--ink);
@@ -73,11 +66,11 @@
       font-size: 13.5px;
       letter-spacing: 0.08em;
     }
-    .top-nav { display: flex; align-items: center; gap: 22px; }
+    .top-nav { display: flex; align-items: center; gap: 20px; }
     .top-nav a {
       text-decoration: none;
       color: var(--ink-mid);
-      font-size: 13.5px;
+      font-size: 13px;
     }
     .top-nav a:hover { color: var(--ink); }
     .lang-btn {
@@ -102,7 +95,7 @@
     }
     .hero-sub {
       margin-top: 12px;
-      max-width: 600px;
+      max-width: 620px;
       color: var(--ink-mid);
       font-size: 15.5px;
     }
@@ -121,7 +114,9 @@
 
     /* Sections */
     .section { padding: 72px 0; }
-    .section-eyebrow { margin-bottom: 24px; }
+    .section-head { margin-bottom: 32px; }
+    .section-title { font-size: 22px; font-weight: 500; margin-top: 6px; }
+    .section-desc { font-size: 14px; color: var(--ink-mid); margin-top: 4px; }
 
     /* Statement */
     .statement-body {
@@ -134,19 +129,33 @@
       word-break: keep-all;
     }
 
-    /* Gallery */
-    .gallery-grid {
+    /* 3-Part Grids */
+    .grid-sanctuaries {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 48px 36px;
     }
+    .grid-rosaries {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 36px 28px;
+    }
+    .grid-servers {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 36px 28px;
+    }
+
     .plate-card { cursor: pointer; }
     .plate-thumb-wrap {
-      aspect-ratio: 3 / 2;
       overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--line);
     }
+    .grid-sanctuaries .plate-thumb-wrap { aspect-ratio: 3 / 2; }
+    .grid-rosaries .plate-thumb-wrap { aspect-ratio: 1 / 1; }
+    .grid-servers .plate-thumb-wrap { aspect-ratio: 3 / 5; }
+
     .plate-thumb-wrap img {
       width: 100%;
       height: 100%;
@@ -158,10 +167,10 @@
     .plate-meta {
       display: flex;
       justify-content: space-between;
-      margin-top: 12px;
+      margin-top: 10px;
     }
     .plate-desc {
-      margin-top: 6px;
+      margin-top: 5px;
       font-size: 13.5px;
       color: var(--ink-mid);
     }
@@ -172,10 +181,7 @@
       transform: translateY(18px);
       transition: opacity 0.7s ease, transform 0.7s ease;
     }
-    .reveal.is-visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    .reveal.is-visible { opacity: 1; transform: translateY(0); }
 
     /* Lightbox */
     .lightbox {
@@ -207,15 +213,8 @@
       display: block;
       margin: 0 auto;
     }
-    .lb-caption {
-      margin-top: 16px;
-      color: #e6e4de;
-      font-size: 13.5px;
-    }
-    .lb-plate {
-      color: #a8a69f;
-      margin-bottom: 4px;
-    }
+    .lb-caption { margin-top: 16px; color: #e6e4de; font-size: 13.5px; }
+    .lb-plate { color: #a8a69f; margin-bottom: 4px; }
     .lb-btn {
       position: fixed;
       background: transparent;
@@ -239,10 +238,13 @@
       align-items: center;
       gap: 16px;
     }
+    .back-link { text-decoration: none; color: var(--ink-mid); }
+    .back-link:hover { color: var(--ink); }
 
-    @media (max-width: 760px) {
+    @media (max-width: 820px) {
       .wrap { padding: 0 20px; }
-      .gallery-grid { grid-template-columns: 1fr; gap: 36px; }
+      .grid-sanctuaries, .grid-rosaries, .grid-servers { grid-template-columns: 1fr; gap: 36px; }
+      .top-nav a.hide-mobile { display: none; }
       .lightbox { padding: 24px 16px; }
       #lbPrev, #lbNext { top: auto; bottom: 20px; transform: none; }
       #lbPrev { left: 20px; }
@@ -253,37 +255,62 @@
 <body>
   <div id="scrollProgress" class="scroll-progress"></div>
 
-    <header class="top-header">
+  <header class="top-header">
     <div class="wrap header-row">
       <a href="./" class="site-name">ORIGIN OF FAITH</a>
       <nav class="top-nav">
-        <a href="../" class="back-link">← Works</a>
-        <a href="#statement" data-i18n="navStatement">Statement</a>
-        <a href="#plates" data-i18n="navPlates">Plates</a>
+        <a href="../">← Works</a>
+        <a href="#statement" class="hide-mobile">Statement</a>
+        <a href="#sanctuaries" class="hide-mobile">01</a>
+        <a href="#rosaries" class="hide-mobile">02</a>
+        <a href="#servers" class="hide-mobile">03</a>
         <button id="langToggle" class="lang-btn" type="button">EN</button>
       </nav>
     </div>
   </header>
 
-
   <main class="wrap">
     <section class="hero">
       <p class="mono" data-i18n="eyebrow">02 · PHOTOGRAPHY ARCHIVE · 2024 – 2026</p>
       <h1 data-i18n="title">믿음의 근원</h1>
-      <p class="hero-sub" data-i18n="subtitle">텅 빈 한국 성당 열 곳의 제대를 정면으로 마주하며 기록한 믿음의 공간과 빛</p>
+      <p class="hero-sub" data-i18n="subtitle">한국 천주교의 성전, 손안의 묵주, 그리고 제대 앞 복사단을 통해 기록한 믿음의 공간과 빛</p>
       <div class="hero-image reveal">
-        <img src="images/full/origin_11.jpg" alt="믿음의 근원 대표 사진" />
+        <img src="images/full/origin_13.jpg" alt="믿음의 근원 대표 사진" />
       </div>
     </section>
 
     <section id="statement" class="section border-top">
-      <p class="mono section-eyebrow" data-i18n="statementLabel">ARTIST STATEMENT</p>
+      <div class="section-head">
+        <p class="mono">ARTIST STATEMENT</p>
+      </div>
       <div id="statementContent" class="statement-body reveal"></div>
     </section>
 
-    <section id="plates" class="section border-top">
-      <p class="mono section-eyebrow" data-i18n="platesLabel">PLATES · 01 – 11</p>
-      <div id="galleryGrid" class="gallery-grid"></div>
+    <section id="sanctuaries" class="section border-top">
+      <div class="section-head">
+        <p class="mono">PART 01 · SANCTUARIES (01 – 113)</p>
+        <h2 class="section-title" data-i18n="part1Title">성전 — 공간과 빛의 질서</h2>
+        <p class="section-desc" data-i18n="part1Desc">텅 빈 성당의 중앙 통로에서 같은 거리와 정면의 시선으로 마주한 열한 곳의 제대</p>
+      </div>
+      <div id="gridSanctuaries" class="grid-sanctuaries"></div>
+    </section>
+
+    <section id="rosaries" class="section border-top">
+      <div class="section-head">
+        <p class="mono">PART 02 · ROSARIES (14 – 18)</p>
+        <h2 class="section-title" data-i18n="part2Title">묵주 — 손안의 작은 믿음</h2>
+        <p class="section-desc" data-i18n="part2Desc">거대한 성전과 대척점에 놓인, 두 손바닥 위의 가장 사적이고 촉각적인 기도의 도구</p>
+      </div>
+      <div id="gridRosaries" class="grid-rosaries"></div>
+    </section>
+
+    <section id="servers" class="section border-top">
+      <div class="section-head">
+        <p class="mono">PART 03 · ALTAR SERVERS (19 – 21)</p>
+        <h2 class="section-title" data-i18n="part3Title">복사단 — 제의와 일상의 경계</h2>
+        <p class="section-desc" data-i18n="part3Desc">붉은 영대와 흰 장백의 아래 청바지와 운동화를 신은 동시대 신앙의 얼굴</p>
+      </div>
+      <div id="gridServers" class="grid-servers"></div>
     </section>
   </main>
 

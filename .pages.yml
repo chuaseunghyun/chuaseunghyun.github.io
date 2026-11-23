@@ -10,7 +10,7 @@ content:
     format: json
     fields:
       - name: items
-        label: 사진목록
+        label: 사진 목록
         type: object
         list: true
         fields:
@@ -43,4 +43,30 @@ content:
             type: string
           - name: desc
             label: 사진 설명 (캡션)
+            type: string
+
+  - name: origin_of_faith
+    label: 믿음의 근원 사진 아카이브
+    type: file
+    path: origin-of-faith/photo.json
+    format: json
+    fields:
+      - name: items
+        label: 사진 목록
+        type: object
+        list: true
+        fields:
+          - name: plate
+            label: Plate 번호
+            type: string
+            required: true
+          - name: image
+            label: 사진
+            type: image
+            required: true
+          - name: ref
+            label: 시리즈 / 태그
+            type: string
+          - name: desc
+            label: 성당명 · 설명 (캡션)
             type: string
