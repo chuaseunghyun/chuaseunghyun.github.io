@@ -1,0 +1,15 @@
+{
+  "items": [
+    { "plate": "Plate 01", "image": "images/full/origin_01.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "근대 벽돌 아치와 한글 성구 — 한국 성당 공간의 원형" },
+    { "plate": "Plate 02", "image": "images/full/origin_02.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "한국적 도상과 순교자 벽화, 목재 격자 제대" },
+    { "plate": "Plate 03", "image": "images/full/origin_03.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "붉은 중앙 통로와 돔 천장 — 공동체와 제도의 스케일" },
+    { "plate": "Plate 04", "image": "images/full/origin_04.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "석조 아치 속 십자가와 양옆 디지털 스크린의 공존" },
+    { "plate": "Plate 05", "image": "images/full/origin_05.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "붉은 벽돌과 원형 황금 스테인드글라스" },
+    { "plate": "Plate 06", "image": "images/full/origin_06.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "어두운 원형 성전과 중앙 통로에 번지는 스테인드글라스 색광" },
+    { "plate": "Plate 07", "image": "images/full/origin_07.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "목재 루버 벽면과 푸른 천창 빛, 붉은 감실등의 대비" },
+    { "plate": "Plate 08", "image": "images/full/origin_08.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "높은 석재 벽면과 틈새 자연광, 중앙의 황금 십자가" },
+    { "plate": "Plate 09", "image": "images/full/origin_09.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "베이지 벽면 위로 떨어지는 대각선 프리즘 빛과 십자가" },
+    { "plate": "Plate 10", "image": "images/full/origin_10.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "백색 원형 회벽과 천창의 빛, 가느다란 추상 십자가" },
+    { "plate": "Plate 11", "image": "images/full/origin_11.jpg", "chapter": "all", "ref": "Origin of Faith", "desc": "벽돌과 백색 벽면 사이 쏟아지는 빛, 그리고 홀로 제대를 바라보는 시선" }
+  ]
+}

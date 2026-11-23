@@ -1,211 +1,29 @@
 {
   "items": [
-    {
-      "plate": "Plate 01",
-      "image": "images/full/MONEYISLND_034.jpg",
-      "thumb": "images/thumbs/MONEYISLND_034.jpg",
-      "chapter": "01",
-      "ref": "Robert Adams",
-      "desc": "평탄화된 매립지 원경 — 개발을 기다리는 빈 대지의 수평선"
-    },
-    {
-      "plate": "Plate 02",
-      "image": "images/full/MONEYISLND_040.jpg",
-      "thumb": "images/thumbs/MONEYISLND_040.jpg",
-      "chapter": "01",
-      "ref": "Joe Deal",
-      "desc": "파란 방수포 조각이 흩어진 광활한 절토지"
-    },
-    {
-      "plate": "Plate 03",
-      "image": "images/full/MONEYISLND_045.jpg",
-      "thumb": "images/thumbs/MONEYISLND_045.jpg",
-      "chapter": "01",
-      "ref": "Lewis Baltz",
-      "desc": "정면 수평으로 분할된 방수포 흙둑과 잡초"
-    },
-    {
-      "plate": "Plate 04",
-      "image": "images/full/MONEYISLND_048.jpg",
-      "thumb": "images/thumbs/MONEYISLND_048.jpg",
-      "chapter": "01",
-      "ref": "Joe Deal",
-      "desc": "파헤쳐진 구덩이와 방수포 지층 — 멈춘 토목 현장"
-    },
-    {
-      "plate": "Plate 05",
-      "image": "images/full/MONEYISLND_050.jpg",
-      "thumb": "images/thumbs/MONEYISLND_050.jpg",
-      "chapter": "01",
-      "ref": "Joe Deal",
-      "desc": "계단식으로 절토된 토사와 파란 비닐의 기하학적 지형"
-    },
-    {
-      "plate": "Plate 06",
-      "image": "images/full/MONEYISLND_044.jpg",
-      "thumb": "images/thumbs/MONEYISLND_044.jpg",
-      "chapter": "01",
-      "ref": "Stephen Shore",
-      "desc": "비포장도로 옆 뒷면만 보이는 표지판"
-    },
-    {
-      "plate": "Plate 07",
-      "image": "images/full/MONEYISLND_047.jpg",
-      "thumb": "images/thumbs/MONEYISLND_047.jpg",
-      "chapter": "02",
-      "ref": "Stephen Shore",
-      "desc": "차단벽 너머 신호등과 텅 빈 교차로"
-    },
-    {
-      "plate": "Plate 08",
-      "image": "images/full/MONEYISLND_054.jpg",
-      "thumb": "images/thumbs/MONEYISLND_054.jpg",
-      "chapter": "02",
-      "ref": "Stephen Shore",
-      "desc": "차 한 대 없는 완벽한 왕복 횡단보도"
-    },
-    {
-      "plate": "Plate 09",
-      "image": "images/full/MONEYISLND_055.jpg",
-      "thumb": "images/thumbs/MONEYISLND_055.jpg",
-      "chapter": "02",
-      "ref": "Stephen Shore",
-      "desc": "텅 빈 교차로 아스팔트 위 원형 타이어 스키드 마크"
-    },
-    {
-      "plate": "Plate 10",
-      "image": "images/full/MONEYISLND_053.jpg",
-      "thumb": "images/thumbs/MONEYISLND_053.jpg",
-      "chapter": "02",
-      "ref": "Deadpan",
-      "desc": "지지대에 묶여 반듯하게 정렬된 가로수"
-    },
-    {
-      "plate": "Plate 11",
-      "image": "images/full/MONEYISLND_057.jpg",
-      "thumb": "images/thumbs/MONEYISLND_057.jpg",
-      "chapter": "02",
-      "ref": "Stephen Shore",
-      "desc": "끝없이 펼쳐진 평탄한 자갈 공터와 수평선 너머의 리조트"
-    },
-    {
-      "plate": "Plate 12",
-      "image": "images/full/MONEYISLND_058.jpg",
-      "thumb": "images/thumbs/MONEYISLND_058.jpg",
-      "chapter": "02",
-      "ref": "Stephen Shore",
-      "desc": "미세한 시점 이동으로 반복되는 광활한 공허의 스케일"
-    },
-    {
-      "plate": "Plate 13",
-      "image": "images/full/MONEYISLND_063.jpg",
-      "thumb": "images/thumbs/MONEYISLND_063.jpg",
-      "chapter": "02",
-      "ref": "Frontality",
-      "desc": "공터 한가운데 홀로 서 있는 T04 주차 구역 표지판"
-    },
-    {
-      "plate": "Plate 14",
-      "image": "images/full/MONEYISLND_066.jpg",
-      "thumb": "images/thumbs/MONEYISLND_066.jpg",
-      "chapter": "02",
-      "ref": "Frontality",
-      "desc": "정면 대칭 구도로 포착한 비어 있는 진입로와 표지판"
-    },
-    {
-      "plate": "Plate 15",
-      "image": "images/full/MONEYISLND_070.jpg",
-      "thumb": "images/thumbs/MONEYISLND_070.jpg",
-      "chapter": "02",
-      "ref": "Stephen Shore",
-      "desc": "인적 없는 공터 옆 말끔하게 관리되는 공용 화장실·관리동"
-    },
-    {
-      "plate": "Plate 16",
-      "image": "images/full/MONEYISLND_012.jpg",
-      "thumb": "images/thumbs/MONEYISLND_012.jpg",
-      "chapter": "03",
-      "ref": "Lewis Baltz",
-      "desc": "노출 콘크리트 기둥 격자와 찢어진 파란 안전망"
-    },
-    {
-      "plate": "Plate 17",
-      "image": "images/full/MONEYISLND_014.jpg",
-      "thumb": "images/thumbs/MONEYISLND_014.jpg",
-      "chapter": "03",
-      "ref": "Lewis Baltz",
-      "desc": "붉은 철골 하부와 반복되는 콘크리트 프레임"
-    },
-    {
-      "plate": "Plate 18",
-      "image": "images/full/MONEYISLND_015.jpg",
-      "thumb": "images/thumbs/MONEYISLND_015.jpg",
-      "chapter": "03",
-      "ref": "Lewis Baltz",
-      "desc": "콘크리트 격자 사이 늘어진 파란 안전망"
-    },
-    {
-      "plate": "Plate 19",
-      "image": "images/full/MONEYISLND_019.jpg",
-      "thumb": "images/thumbs/MONEYISLND_019.jpg",
-      "chapter": "03",
-      "ref": "Lewis Baltz",
-      "desc": "녹슨 외장 철골 프레임의 수평적 리듬"
-    },
-    {
-      "plate": "Plate 20",
-      "image": "images/full/MONEYISLND_020.jpg",
-      "thumb": "images/thumbs/MONEYISLND_020.jpg",
-      "chapter": "03",
-      "ref": "Lewis Baltz",
-      "desc": "노출 콘크리트 기둥에 부착된 흑백 측량 타겟 마크"
-    },
-    {
-      "plate": "Plate 21",
-      "image": "images/full/MONEYISLND_026.jpg",
-      "thumb": "images/thumbs/MONEYISLND_026.jpg",
-      "chapter": "04",
-      "ref": "Robert Adams",
-      "desc": "넓은 습지·초지 지평선 너머로 늘어선 영종 아파트 군집"
-    },
-    {
-      "plate": "Plate 22",
-      "image": "images/full/MONEYISLND_027.jpg",
-      "thumb": "images/thumbs/MONEYISLND_027.jpg",
-      "chapter": "04",
-      "ref": "Robert Adams",
-      "desc": "수평적 거리감을 유지한 채 자연과 고밀도 주거지를 병치"
-    },
-    {
-      "plate": "Plate 23",
-      "image": "images/full/MONEYISLND_071.jpg",
-      "thumb": "images/thumbs/MONEYISLND_071.jpg",
-      "chapter": "04",
-      "ref": "Robert Adams",
-      "desc": "평탄한 잔디 언덕 너머 돔과 주황빛 거대 리조트 건축물"
-    },
-    {
-      "plate": "Plate 24",
-      "image": "images/full/MONEYISLND_073.jpg",
-      "thumb": "images/thumbs/MONEYISLND_073.jpg",
-      "chapter": "04",
-      "ref": "Robert Adams",
-      "desc": "수변 너머 수평으로 길게 놓인 완성된 복합리조트 단지"
-    },
-    {
-      "plate": "Plate 25",
-      "image": "images/full/MONEYISLND_083.jpg",
-      "thumb": "images/thumbs/MONEYISLND_083.jpg",
-      "chapter": "04",
-      "ref": "Robert Adams",
-      "desc": "갈대밭과 수면 너머 원경 — 담담한 마무리"
-    },
-    {
-      "plate": "Plate 26",
-      "image": "images/full/tower-wide.jpg",
-      "thumb": "images/full/tower-wide-1.jpg",
-      "chapter": "03",
-      "desc": "미완성의 방치"
-    }
+    { "plate": "Plate 01", "image": "images/full/MONEYISLND_034.jpg", "thumb": "images/thumbs/MONEYISLND_034.jpg", "chapter": "01", "ref": "Robert Adams", "desc": "평탄화된 매립지 원경 — 개발을 기다리는 빈 대지의 수평선" },
+    { "plate": "Plate 02", "image": "images/full/MONEYISLND_040.jpg", "thumb": "images/thumbs/MONEYISLND_040.jpg", "chapter": "01", "ref": "Joe Deal", "desc": "파란 방수포 조각이 흩어진 광활한 절토지" },
+    { "plate": "Plate 03", "image": "images/full/MONEYISLND_045.jpg", "thumb": "images/thumbs/MONEYISLND_045.jpg", "chapter": "01", "ref": "Lewis Baltz", "desc": "정면 수평으로 분할된 방수포 흙둑과 잡초" },
+    { "plate": "Plate 04", "image": "images/full/MONEYISLND_048.jpg", "thumb": "images/thumbs/MONEYISLND_048.jpg", "chapter": "01", "ref": "Joe Deal", "desc": "파헤쳐진 구덩이와 방수포 지층 — 멈춘 토목 현장" },
+    { "plate": "Plate 05", "image": "images/full/MONEYISLND_050.jpg", "thumb": "images/thumbs/MONEYISLND_050.jpg", "chapter": "01", "ref": "Joe Deal", "desc": "계단식으로 절토된 토사와 파란 비닐의 기하학적 지형" },
+    { "plate": "Plate 06", "image": "images/full/MONEYISLND_044.jpg", "thumb": "images/thumbs/MONEYISLND_044.jpg", "chapter": "01", "ref": "Stephen Shore", "desc": "비포장도로 옆 뒷면만 보이는 표지판" },
+    { "plate": "Plate 07", "image": "images/full/MONEYISLND_047.jpg", "thumb": "images/thumbs/MONEYISLND_047.jpg", "chapter": "02", "ref": "Stephen Shore", "desc": "차단벽 너머 신호등과 텅 빈 교차로" },
+    { "plate": "Plate 08", "image": "images/full/MONEYISLND_054.jpg", "thumb": "images/thumbs/MONEYISLND_054.jpg", "chapter": "02", "ref": "Stephen Shore", "desc": "차 한 대 없는 완벽한 왕복 횡단보도" },
+    { "plate": "Plate 09", "image": "images/full/MONEYISLND_055.jpg", "thumb": "images/thumbs/MONEYISLND_055.jpg", "chapter": "02", "ref": "Stephen Shore", "desc": "텅 빈 교차로 아스팔트 위 원형 타이어 스키드 마크" },
+    { "plate": "Plate 10", "image": "images/full/MONEYISLND_053.jpg", "thumb": "images/thumbs/MONEYISLND_053.jpg", "chapter": "02", "ref": "Deadpan", "desc": "지지대에 묶여 반듯하게 정렬된 가로수" },
+    { "plate": "Plate 11", "image": "images/full/MONEYISLND_057.jpg", "thumb": "images/thumbs/MONEYISLND_057.jpg", "chapter": "02", "ref": "Stephen Shore", "desc": "끝없이 펼쳐진 평탄한 자갈 공터와 수평선 너머의 리조트" },
+    { "plate": "Plate 12", "image": "images/full/MONEYISLND_058.jpg", "thumb": "images/thumbs/MONEYISLND_058.jpg", "chapter": "02", "ref": "Stephen Shore", "desc": "미세한 시점 이동으로 반복되는 광활한 공허의 스케일" },
+    { "plate": "Plate 13", "image": "images/full/MONEYISLND_063.jpg", "thumb": "images/thumbs/MONEYISLND_063.jpg", "chapter": "02", "ref": "Frontality", "desc": "공터 한가운데 홀로 서 있는 T04 주차 구역 표지판" },
+    { "plate": "Plate 14", "image": "images/full/MONEYISLND_066.jpg", "thumb": "images/thumbs/MONEYISLND_066.jpg", "chapter": "02", "ref": "Frontality", "desc": "정면 대칭 구도로 포착한 비어 있는 진입로와 표지판" },
+    { "plate": "Plate 15", "image": "images/full/MONEYISLND_070.jpg", "thumb": "images/thumbs/MONEYISLND_070.jpg", "chapter": "02", "ref": "Stephen Shore", "desc": "인적 없는 공터 옆 말끔하게 관리되는 공용 화장실·관리동" },
+    { "plate": "Plate 16", "image": "images/full/MONEYISLND_012.jpg", "thumb": "images/thumbs/MONEYISLND_012.jpg", "chapter": "03", "ref": "Lewis Baltz", "desc": "노출 콘크리트 기둥 격자와 찢어진 파란 안전망" },
+    { "plate": "Plate 17", "image": "images/full/MONEYISLND_014.jpg", "thumb": "images/thumbs/MONEYISLND_014.jpg", "chapter": "03", "ref": "Lewis Baltz", "desc": "붉은 철골 하부와 반복되는 콘크리트 프레임" },
+    { "plate": "Plate 18", "image": "images/full/MONEYISLND_015.jpg", "thumb": "images/thumbs/MONEYISLND_015.jpg", "chapter": "03", "ref": "Lewis Baltz", "desc": "콘크리트 격자 사이 늘어진 파란 안전망" },
+    { "plate": "Plate 19", "image": "images/full/MONEYISLND_019.jpg", "thumb": "images/thumbs/MONEYISLND_019.jpg", "chapter": "03", "ref": "Lewis Baltz", "desc": "녹슨 외장 철골 프레임의 수평적 리듬" },
+    { "plate": "Plate 20", "image": "images/full/MONEYISLND_020.jpg", "thumb": "images/thumbs/MONEYISLND_020.jpg", "chapter": "03", "ref": "Lewis Baltz", "desc": "노출 콘크리트 기둥에 부착된 흑백 측량 타겟 마크" },
+    { "plate": "Plate 21", "image": "images/full/MONEYISLND_026.jpg", "thumb": "images/thumbs/MONEYISLND_026.jpg", "chapter": "04", "ref": "Robert Adams", "desc": "넓은 습지·초지 지평선 너머로 늘어선 영종 아파트 군집" },
+    { "plate": "Plate 22", "image": "images/full/MONEYISLND_027.jpg", "thumb": "images/thumbs/MONEYISLND_027.jpg", "chapter": "04", "ref": "Robert Adams", "desc": "수평적 거리감을 유지한 채 자연과 고밀도 주거지를 병치" },
+    { "plate": "Plate 23", "image": "images/full/MONEYISLND_071.jpg", "thumb": "images/thumbs/MONEYISLND_071.jpg", "chapter": "04", "ref": "Robert Adams", "desc": "평탄한 잔디 언덕 너머 돔과 주황빛 거대 리조트 건축물" },
+    { "plate": "Plate 24", "image": "images/full/MONEYISLND_073.jpg", "thumb": "images/thumbs/MONEYISLND_073.jpg", "chapter": "04", "ref": "Robert Adams", "desc": "수변 너머 수평으로 길게 놓인 완성된 복합리조트 단지" },
+    { "plate": "Plate 25", "image": "images/full/MONEYISLND_083.jpg", "thumb": "images/thumbs/MONEYISLND_083.jpg", "chapter": "04", "ref": "Robert Adams", "desc": "갈대밭과 수면 너머 원경 — 담담한 마무리" }
   ]
 }
